@@ -1,0 +1,16 @@
+p
+{
+    color:blue;
+    text-align:center;
+}
+.marked
+{
+    background-color:red;
+}
+.marked p
+{
+    color:white;
+}
+p.marked{
+    text-decoration:underline;
+}
