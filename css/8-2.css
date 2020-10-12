@@ -1,0 +1,24 @@
+a:link {
+    text-decoration: none;
+    color: #000000;background-color:#B2FF99;
+}
+
+/* unvisited link */
+a:visited {
+    text-decoration: none;
+    color: #00FF00;background-color:#FFFF85;
+}
+
+/* visited link */
+a:hover {
+    text-decoration: underline;
+    color: #FF00FF;background-color:#FF704D;
+}
+
+/* mouse over link */
+a:active {
+    text-decoration: underline;
+    color: #0000FF;background-color:#FF704D;
+}
+
+/* selected link */
