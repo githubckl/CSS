@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p:first-line {
+            color: #ff0000;
+            font-variant: small-caps;
+        }
+
+        h3::first-letter {
+            color: #ff0000;
+            font-size: xx-large;
+        }
+
+        h4:first-letter {
+            color: #ff0000;
+            font-size: xx-large;
+        }
+
+        h4:first-line {
+            color: #0000ff;
+            font-variant: small-caps;
+        }
+
+        h1:before {
+            content: url(img/smiley.gif);
+        }
+
+    </style>
+</head>
+<body>
+<p>你可以使用 "first-line" 伪元素向文本的首行设置特殊样式。你可以使用 "first-line" 伪元素向文本的首行设置特殊样式。你可以使用 "first-line" 伪元素向文本的首行设置特殊样式。你可以使用
+    "first-line" 伪元素向文本的首行设置特殊样式。你可以使用 "first-line" 伪元素向文本的首行设置特殊样式。</p>
+<h3>
+    你可以使用 "first-letter" 伪元素向文本的首字母设置特殊样式：
+</h3>
+<h4>
+    你可以结合使用"first-line"和"first-letter"伪元素向文本的首行和首字母
+    设置特殊样式。
+</h4>
+<h1>This is a heading</h1>
+
+</body>
+</html>
